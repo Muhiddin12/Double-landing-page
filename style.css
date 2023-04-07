@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.split {
+  width: 50%;
+  height: 100%;
+}
+
+.split.left {
+  position: absolute;
+  left: 0;
+}
